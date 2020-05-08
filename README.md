@@ -14,7 +14,7 @@ output:
     self_contained: no
 ---
 
-# Shiny Dashbord for Tracking and modeling COVID-19 datasets
+# COVID-19_Dashboard Background
 
 * COVOD19 is a Shiny app developed by Bakti Siregar, M.Sc, Lecturer of Data Scientist at [Matana University](https://matanauniversity.ac.id/).
 
@@ -22,7 +22,7 @@ output:
 
 * The map overview shows daily confirmed, recovered , and deaths cases. The two tables quickly show us the classification of dead and confirmed cases in the countries of the world.
 
-![]("https://www.youtube.com/watch?v=CSh4kUGqJ7M")
+https://www.youtube.com/watch?v=CSh4kUGqJ7M
 
 # Data Source
 
