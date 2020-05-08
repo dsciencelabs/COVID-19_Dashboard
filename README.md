@@ -1,28 +1,7 @@
----
-title: "Shiny Dashbord for Tracking and modeling COVID-19 datasets"
-date: "2020-05-14"
-output:
-  html_document:
-    number_sections: true
-    fig_caption: true
-    toc: true
-    fig_width: 7
-    fig_height: 4.5
-    theme: cosmo
-    highlight: tango
-    code_folding: hide
-    self_contained: no
----
-
 # COVID-19_Dashboard Background
 
-* COVOD19 is a Shiny app developed by Bakti Siregar, M.Sc, Lecturer of Data Scientist at [Matana University](https://matanauniversity.ac.id/).
-
-* The goal is to follow the trend of the evolution of this Covid-19 pandemy and estimate when it will be safe to get back to normal life.
-
-* The map overview shows daily confirmed, recovered , and deaths cases. The two tables quickly show us the classification of dead and confirmed cases in the countries of the world.
-
-https://www.youtube.com/watch?v=CSh4kUGqJ7M
+The Background of COVID-19 Dashboard
+This COVID-19 Dashboard was build from Shiny packages and developed by **Bakti Siregar, M.Sc**, Lecturer of Data Scientist at [**Matana University**](https://matanauniversity.ac.id/). This App demonstrates some recent news about the Coronavirus pandemic. All dataset reads from the John Hopkins dataset, and shows some data related to mortality, recovery, infected, and etc.
 
 # Data Source
 
@@ -50,7 +29,6 @@ https://www.youtube.com/watch?v=CSh4kUGqJ7M
 
 - [Canada Province Area & Population](https://en.wikipedia.org/wiki/Provinces_and_territories_of_Canada)
 
-
 # Acknowledgment
 
 * A special Thansk to all developper that are working hard to collect and curate the datasets available in different site.
@@ -61,7 +39,12 @@ https://www.youtube.com/watch?v=CSh4kUGqJ7M
 
 This App is for educational purposes only. Opinions or points of view expressed in this App represent the perspective of the creator only, that relies on public data from the John Hopkins, WHITING SCHOOL OF ENGINEERING, CENTER FOR SYSTEMS SCIENCE AND ENGINEERING. Nothing in this App constitutes legal advice.
 
-<br>
+# Words of Wisdom to Fight the COVID-19 Deases
+Please stay at home, distance yourself from others and be healthy. We must not only keep our hands clean , let us get ride of any thing that contaminate the body. The soul of spirit must be equally kept clean. Because we know that the key to overcome this crisis is patience, courage, self-discipline, adaptation and alertness.
+
+<img src="https://static.dezeen.com/uploads/2020/03/the-spinoff-toby-morris-siouxsie-wiles-design-graphics-illustration-coronavirus_dezeen_1704_col_4.gif" width=130%/>
+
+
 
 
 
