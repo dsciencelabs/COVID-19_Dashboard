@@ -25,10 +25,10 @@ This COVID-19 Dashboard was build from Shiny packages and developed by [**Bakti 
 
 This App is for educational purposes only. Opinions or points of view expressed in this App represent the perspective of the creator only, that relies on public data from the John Hopkins, WHITING SCHOOL OF ENGINEERING, CENTER FOR SYSTEMS SCIENCE AND ENGINEERING. Nothing in this App constitutes legal advice.
 
-# Words of Wisdom to Fight the COVID-19 Deases
+# Motivation to Fight the COVID-19 Deases
 Please stay at home, distance yourself from others and be healthy. We must not only keep our hands clean , let us get ride of any thing that contaminate the body. The soul of spirit must be equally kept clean. Because we know that the key to overcome this crisis is patience, courage, self-discipline, adaptation and alertness.
 
-<img src="https://static.dezeen.com/uploads/2020/03/the-spinoff-toby-morris-siouxsie-wiles-design-graphics-illustration-coronavirus_dezeen_1704_col_4.gif" width=130%/>
+<img src="https://static.dezeen.com/uploads/2020/03/the-spinoff-toby-morris-siouxsie-wiles-design-graphics-illustration-coronavirus_dezeen_1704_col_4.gif" width=70%/>
 
 
 
