@@ -2,7 +2,7 @@
 
 This COVID-19 Dashboard was build from Shiny packages and developed by [**Bakti Siregar, M.Sc**](https://www.linkedin.com/in/bakti-siregar-15955480/), Lecturer of Data Science at [**Matana University**](https://matanauniversity.ac.id/). This App demonstrates some recent news about the Coronavirus pandemic. All dataset reads from the John Hopkins dataset, and shows some data related to mortality, recovery, infected, and etc.
 
-[**Klick Here Review the COVID-19 Dashboard**](https://master-data-scientist.shinyapps.io/COVID-19_Dashboard/)
+**Klick [Here](https://master-data-scientist.shinyapps.io/COVID-19_Dashboard/) to Review the COVID-19 Dashboard**
 
 # Data Source
 
