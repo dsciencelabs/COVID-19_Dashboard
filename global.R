@@ -88,44 +88,15 @@ data_evolution <- data_evolution %>%
 rm(data_confirmed, data_confirmed_sub, data_recovered, data_recovered_sub, data_deceased, data_deceased_sub)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # ---- Download population data ----
-population                                                            <- wb(country = "countries_only", indicator = "SP.POP.TOTL", startdate = 2018, enddate = 2020) %>%
+population <- wb(country = "countries_only", indicator = "SP.POP.TOTL", startdate = 2018, enddate = 2020) %>%
   select(country, value) %>%
   rename(population = value)
-countryNamesPop                                                       <- c("Brunei Darussalam", "Congo, Dem. Rep.", "Congo, Rep.", "Czech Republic",
-                                                                           "Egypt, Arab Rep.", "Iran, Islamic Rep.", "Korea, Rep.", "St. Lucia", "West Bank and Gaza", "Russian Federation",
-                                                                           "Slovak Republic", "United States", "St. Vincent and the Grenadines", "Venezuela, RB")
-countryNamesDat                                                       <- c("Brunei", "Congo (Kinshasa)", "Congo (Brazzaville)", "Czechia", "Egypt", "Iran", "Korea, South",
-                                                                           "Saint Lucia", "occupied Palestinian territory", "Russia", "Slovakia", "US", "Saint Vincent and the Grenadines", "Venezuela")
+countryNamesPop <- c("Brunei Darussalam", "Congo, Dem. Rep.", "Congo, Rep.", "Czech Republic",
+                     "Egypt, Arab Rep.", "Iran, Islamic Rep.", "Korea, Rep.", "St. Lucia", "West Bank and Gaza", "Russian Federation",
+                    "Slovak Republic", "United States", "St. Vincent and the Grenadines", "Venezuela, RB")
+countryNamesDat <- c("Brunei", "Congo (Kinshasa)", "Congo (Brazzaville)", "Czechia", "Egypt", "Iran", "Korea, South",
+                    "Saint Lucia", "occupied Palestinian territory", "Russia", "Slovakia", "US", "Saint Vincent and the Grenadines", "Venezuela")
 population[which(population$country %in% countryNamesPop), "country"] <- countryNamesDat
 
 
@@ -134,7 +105,7 @@ noDataCountries <- data.frame(
   country    = c("Cruise Ship", "Guadeloupe", "Guernsey", "Holy See", "Jersey", "Martinique", "Reunion", "Taiwan*"),
   population = c(3700, 395700, 63026, 800, 106800, 376480, 859959, 23780452)
 )
-population      <- bind_rows(population, noDataCountries)
+population<- bind_rows(population, noDataCountries)
 
 data_evolution <- data_evolution %>%
   left_join(population, by = c("Country/Region" = "country"))
