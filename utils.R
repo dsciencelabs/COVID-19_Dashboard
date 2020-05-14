@@ -1,5 +1,4 @@
 
-
 ## YOU DELETED SOMETHING HERE
 capFirst <- function(x) {
   s <- strsplit(x, " ")[[1]]
@@ -8,13 +7,8 @@ capFirst <- function(x) {
 }
 
 
-
-
-
-
-
-
-# This function helps to source multiple files which are in the same directory. Just provide it with a path and all .R files in the directory it is
+# This function helps to source multiple files which are in the same directory. 
+# Just provide it with a path and all .R files in the directory it is
 # pointed to will be sourced. Can be done recursively or not.
 sourceDirectory <- function(path, recursive = FALSE, local = TRUE) {
   if (!dir.exists(path)) {
