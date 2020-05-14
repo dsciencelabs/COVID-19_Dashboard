@@ -1,4 +1,4 @@
-# Shiny Dashboard (No SQL). 
+# Shiny Dashboard COVID19 (No SQL). 
 # Written by : Bakti Siregar, M.Sc
 # Department of Business statistics, Matana University (Tangerang)
 # Notes: Please don't share this code anywhere (It's just for you)
