@@ -1,5 +1,5 @@
 server <- function(input, output) {
-  sourceDirectory("sections", recursive = TRUE)
+  sourceDirectory("SERVER", recursive = TRUE)
 
   showNotification("Welcome to My Dashboard",
     duration = 10, type = "warning")
