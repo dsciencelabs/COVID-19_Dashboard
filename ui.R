@@ -26,13 +26,13 @@ ui <- fluidPage(theme = shinytheme("yeti"),
     tabPanel("Table", icon = icon("database"), page_fullTable, value = "page-fullTable"),
     tabPanel("Plots", icon = icon("bar-chart"), page_plots, value = "page-plots"),
     tabPanel("About", icon = icon("info-circle"), page_about, value = "page-about"),
-    navbarMenu("", icon = icon("question-circle"),
+    navbarMenu("More", icon = icon("question-circle"),
                tabPanel(tags$a("", href = "https://github.com/Bakti-Siregar/COVID-19_Dashboard/", target = "_blank",list(icon("github"), "Resources"))),
                tabPanel(tags$a("", href = "https://www.linkedin.com/in/bakti-siregar-15955480/", target = "_blank",list(icon("linkedin"), "My Profile"))),
                tabPanel(tags$a("", href = "https://master-data-scientist.shinyapps.io/COVID19-Dashboard-Prediction", target = "_blank",list(icon("connectdevelop"), "More Advanced Dashboard")))
     ),
     tags$script(HTML("var header = $('.navbar > .container-fluid');
-    header.append('<div style=\"float:right\"><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=CSh4kUGqJ7M\"><img src=\"Matana.png\" alt=\"alt\" style=\"float:right;width:33px;padding-top:10px;margin-top:-50px;margin-right:10px\"> </a></div>');
+    header.append('<div style=\"float:right\"><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=cNcLxXbFEEA\"><img src=\"Matana.png\" alt=\"alt\" style=\"float:right;width:33px;padding-top:10px;margin-top:-50px;margin-right:10px\"> </a></div>');
     console.log(header)")
     )
   )
